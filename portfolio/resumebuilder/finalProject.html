@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>WEB-115 Final Project</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+	<script src="projectJS.js"></script>
+
+	<div class="banner">
+		<h1>Dawn Abshire</h1>
+		<h2>Web 115-0003</h2>
+		<h2>Build Your Resume</h2>
+	</div>
+	<form id="form1">
+		<div class="resume-info row">
+			<div class="column left">
+				<label>Enter Your First Name:</label><br>
+				<input type="text" name="fname" id="fname"><br><br>
+
+				<label>Enter Your City:</label><br>
+				<input type="text" name="city" id="city"><br><br>
+
+				<label>Enter Your Email Address:</label><br>
+				<input type="email" name="email" id="email"><br><br>
+
+				<label>Enter Your LinkedIn URL:</label><br>
+				<input type="text" name="linkedin" id="linkedin"><br><br><br><br>
+
+				<label>Programming Languages:</label><br>
+				<textarea name="languages" id="languages" rows="6" cols="30"></textarea><br><br>
+
+				<label>Tools You Use:</label><br>
+				<textarea name="tools" id="tools" rows="6" cols="30"></textarea><br><br>
+
+				<label>Computer Skills:</label><br>
+				<textarea name="computer" id="computer" rows="6" cols="30"></textarea><br><br><br><br>
+
+				<h2>Job History</h2>
+				<p>Current or Most Recent Job</p>
+				<label>Start Date:</label><br>	
+				<input type="date" id="start1"><br><br>
+
+				<label>End Date:</label><br>	
+				<input type="date" id="end1"><br><br>
+
+				<p>Job 2:</p>
+				<label>Start Date:</label><br>	
+				<input type="date" id="start2"><br><br>
+
+				<label>End Date:</label><br>	
+				<input type="date" id="end2"><br><br>
+
+				<p>Job 3:</p>
+				<label>Start Date:</label><br>	
+				<input type="date" id="start3"><br><br>
+
+				<label>End Date:</label><br>	
+				<input type="date" id="end3"><br><br><br><br>
+
+				<h2>References:</h2>
+				<textarea name="references" id="references" rows="6" cols="50"></textarea><br><br>
+
+			</div>
+
+
+			<div class="column right">
+				<label>Enter Your Last Name:</label><br>
+				<input type="text" name="lname" id="lname"><br><br>
+
+				<label>Enter Your State:</label><br>
+				<input type="text" name="state" id="state"><br><br>
+
+				<label>Enter Your Phone Number:</label><br>
+				<input type="tel" name="phoneNumber" id="phoneNumber"><br><br>
+
+				<label>Enter Your Portfolio Link:</label><br>
+				<input type="text" name="portfolio" id="portfolio"><br><br><br><br>
+
+				<label>Software Skills:</label><br>
+				<textarea name="sSkills" id="sSkills" rows="6" cols="30"></textarea><br><br>
+
+				<label>Graphical Skills:</label><br>
+				<textarea name="graphics" id="graphics" rows="6" cols="30"></textarea><br><br>
+
+				<label>Education:</label><br>
+				<textarea name="education" id="education" rows="6" cols="30"></textarea><br><br><br><br><br><br><br><br><br>
+
+				<label>Details:</label><br>
+				<textarea name="job1" id="job1" rows="6" cols="50"></textarea><br><br><br>
+
+				<label>Details:</label><br>
+				<textarea name="job2" id="job2" rows="6" cols="50"></textarea><br><br><br><br>
+
+				<label>Details:</label><br>
+				<textarea name="job3" id="job3" rows="6" cols="50"></textarea><br><br>
+			</div>		
+		</div>
+	</form>
+	<button type="submit" form="form1" value="Submit" onclick="emailValidation()">Create Resume</button>
+
+</body>
+</html>
